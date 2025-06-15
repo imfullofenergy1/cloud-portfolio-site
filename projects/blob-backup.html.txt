@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azure Blob Backup</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>☁️ Azure Blob Backup Script</h1>
+    <a href="../index.html">← Back to Portfolio</a>
+  </header>
+
+  <main>
+    <p>This Python script automates file uploads to Azure Blob Storage using the <strong>Azure SDK</strong>. Great for backups and automation tasks.</p>
+    
+    <h3>🛠️ Features</h3>
+    <ul>
+      <li>Creates a container if it doesn't exist</li>
+      <li>Uploads a local file to Azure Blob</li>
+      <li>Uses the official Azure SDK (BlobServiceClient)</li>
+      <li>Command-line usage with customizable file path</li>
+    </ul>
+
+    <h3>🔗 Links</h3>
+    <ul>
+      <li><a href="https://github.com/imfullofenergy1/azure-blob-backup" target="_blank">📂 GitHub Repo</a></li>
+    </ul>
+  </main>
+</body>
+</html>

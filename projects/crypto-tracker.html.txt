@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Tracker</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>💹 Crypto Portfolio Tracker</h1>
+    <a href="../index.html">← Back to Portfolio</a>
+  </header>
+
+  <main>
+    <p>This project is a Flask web app that fetches real-time ETH and token balances using the <strong>Etherscan API</strong> and displays them in a clean dashboard.</p>
+    
+    <h3>🔧 Features</h3>
+    <ul>
+      <li>Connects to MetaMask or Trust Wallet</li>
+      <li>Shows real-time ETH + token balances</li>
+      <li>Pulls data from Etherscan</li>
+      <li>Built with Flask, HTML/CSS, and Python</li>
+      <li>Secure `.env` file for API key privacy</li>
+    </ul>
+
+    <h3>🔗 Links</h3>
+    <ul>
+      <li><a href="https://crypto-portfolio-tracker-1-uy2.onrender.com/" target="_blank">🌐 Live App</a></li>
+      <li><a href="https://github.com/imfullofenergy1/crypto-portfolio-tracker" target="_blank">📂 GitHub Repo</a></li>
+    </ul>
+  </main>
+</body>
+</html>

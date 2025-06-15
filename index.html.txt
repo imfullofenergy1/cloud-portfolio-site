@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omari Miller | Cloud Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Omari Miller</h1>
+    <p>Cloud Developer • Python Enthusiast • Freedom-Driven</p>
+    <a href="mailto:imfullofenergyllc@gmail.com">📧 imfullofenergyllc@gmail.com</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="projects/crypto-tracker.html">💹 Crypto Portfolio Tracker</a></li>
+        <li><a href="projects/blob-backup.html">☁️ Azure Blob Backup Script</a></li>
+        <li><a href="#">🧠 Security+ Projects (Coming Soon)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with HTML/CSS • Deployed on Azure • No templates used</p>
+  </footer>
+</body>
+</html>
