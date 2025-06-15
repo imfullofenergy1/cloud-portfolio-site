@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            padding: 2rem;
+            color: #111827;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .token-box {
+            background-color: #fff;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .token-title {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Wallet Dashboard</h1>
+
+    {% if data %}
+        {% for token in data %}
+            <div class="token-box">
+                <div class="token-title">{{ token.token }}</div>
+                <div>Balance: {{ token.balance }}</div>
+                <div>USD Value: ${{ token.usd_value }}</div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No data found.</p>
+    {% endif %}
+</body>
+</html>
